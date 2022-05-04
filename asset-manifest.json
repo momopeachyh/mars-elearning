@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mars-elearning/static/css/main.073c9b0a.css",
+    "main.js": "/mars-elearning/static/js/main.815bc6d4.js",
+    "static/js/787.5779241e.chunk.js": "/mars-elearning/static/js/787.5779241e.chunk.js",
+    "index.html": "/mars-elearning/index.html",
+    "main.073c9b0a.css.map": "/mars-elearning/static/css/main.073c9b0a.css.map",
+    "main.815bc6d4.js.map": "/mars-elearning/static/js/main.815bc6d4.js.map",
+    "787.5779241e.chunk.js.map": "/mars-elearning/static/js/787.5779241e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.815bc6d4.js"
+  ]
+}
