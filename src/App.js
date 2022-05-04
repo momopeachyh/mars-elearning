@@ -1,6 +1,6 @@
 import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./component/Home";
+// import Home from "./component/Home";
 import Login from "./component/Login";
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
+          {/* <Route path="/home" element={<Home />} /> */}
+          <Route path="/" element={<Login />} />
         </Routes>
       </Router>
     </div>
