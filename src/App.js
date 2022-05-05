@@ -7,6 +7,9 @@ import Register from "./component/Register";
 function App() {
   return (
     <div className="App">
+      {/* <Home /> */}
+      {/* <h1>hi</h1> */}
+      {/* <Register /> */}
       <Router>
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
