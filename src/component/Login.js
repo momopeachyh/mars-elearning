@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
-import "./Login.css";
+import "./style.css";
+// import { useSelector } from "react-redux";
+// import { useDispatch } from "react-redux";
 
 function Login() {
   return (
@@ -32,8 +34,12 @@ function Login() {
             />
           </div>
 
-          <button type="button" className="btn btn-primary">
-            Create Account
+          <button
+            type="button"
+            className="btn btn-primary"
+            // onClick={loginToAcct}
+          >
+            Login
           </button>
         </form>
       </div>
