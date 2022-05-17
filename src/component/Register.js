@@ -5,11 +5,13 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 // import { useSelector } from "react-redux";
 import { registerUser } from "../action/Action";
+import { useNavigate } from "react-router";
 
 function Register() {
   const dispatch = useDispatch();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
   // const userDetails = useSelector((state) => state);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -22,6 +24,7 @@ function Register() {
       alert("Please enter the missing value.");
     } else {
       dispatch(registerUser(postData));
+      navigate("/registered");
     }
   };
 
@@ -75,6 +78,7 @@ function Register() {
               id="username"
               placeholder="Create a username"
               onChange={(e) => setUsername(e.target.value)}
+              required
             />
           </div>
           <div className="mb-3">
@@ -82,11 +86,12 @@ function Register() {
               Password
             </label>
             <input
-              type="text"
+              type="password"
               className="form-control"
               id="password"
               placeholder="Create a password"
               onChange={(e) => setPassword(e.target.value)}
+              required
             />
           </div>
           <button

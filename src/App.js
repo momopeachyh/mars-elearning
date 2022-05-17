@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./component/Home";
 import Login from "./component/Login";
 import Register from "./component/Register";
+import Registered from "./component/Registered";
 import Account from "./component/Account";
 import CourseList from "./component/CourseList";
 
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/registered" element={<Registered />} />
           <Route path="/login" element={<Login />} />
           <Route path="/account" element={<Account />} />
           <Route path="/courses" element={<CourseList />} />

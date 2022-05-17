@@ -5,7 +5,7 @@ function Registered() {
   return (
     <div className="Registered">
       <Navbar />
-      <h1>Thank you for registering.</h1>
+      <h1>Hello, username. Thank you for registering.</h1>
     </div>
   );
 }
