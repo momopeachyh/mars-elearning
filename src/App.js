@@ -1,20 +1,17 @@
 import "./App.css";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-// import Home from "./component/Home";
-// import Login from "./component/Login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./component/Home";
+import Login from "./component/Login";
 import Register from "./component/Register";
 
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      {/* <h1>hi</h1> */}
-      {/* <Register /> */}
       <Router>
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
-          {/* <Route path="/login" element={<Login />} /> */}
-          <Route path="/" element={<Register />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </div>

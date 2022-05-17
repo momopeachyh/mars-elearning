@@ -30,6 +30,7 @@ function Register() {
       <Navbar />
       <div className="body">
         {/* <h1>{usernameInput}</h1> */}
+        <h1>Register Now!</h1>
         <form>
           {/* <div className="mb-3">
             <label for="firstName" className="form-label">

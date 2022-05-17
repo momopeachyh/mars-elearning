@@ -8,7 +8,8 @@ function Login() {
   return (
     <div className="Login">
       <Navbar />
-      <div className="login-body">
+      <div className="body">
+        <h1>Sign in here</h1>
         <form className="form">
           <div class="mb-3">
             <label for="formGroupExampleInput" class="form-label">
@@ -18,7 +19,7 @@ function Login() {
               type="text"
               class="form-control"
               id="formGroupExampleInput"
-              placeholder="Enter a username"
+              placeholder="Enter your username"
             />
           </div>
 
@@ -30,7 +31,7 @@ function Login() {
               type="text"
               class="form-control"
               id="formGroupExampleInput2"
-              placeholder="Enter a password"
+              placeholder="Enter your password"
             />
           </div>
 
@@ -39,7 +40,7 @@ function Login() {
             className="btn btn-primary"
             // onClick={loginToAcct}
           >
-            Login
+            Sign in
           </button>
         </form>
       </div>

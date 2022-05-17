@@ -24,11 +24,11 @@ function navbar() {
               <a className="nav-link active" aria-current="page" href="/">
                 Home
               </a>
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/register">
                 Register
               </a>
               <a className="nav-link" href="/login">
-                Sign in
+                Login
               </a>
               {/* <a className="nav-link">My account</a> */}
             </div>
