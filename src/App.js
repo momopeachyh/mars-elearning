@@ -1,12 +1,12 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./component/Home";
-import Login from "./component/Login";
+import Login from "./component/Login/Login";
 import Register from "./component/Register";
 import Registered from "./component/Registered";
-import Account from "./component/Account";
-import UpdateAccount from "./component/UpdateAccount";
-import DeleteAccount from "./component/DeleteAccount";
+import Account from "./component/account/Account";
+import UpdateAccount from "./component/account/UpdateAccount";
+import DeleteAccount from "./component/account/DeleteAccount";
 import CourseList from "./component/CourseList";
 
 function App() {

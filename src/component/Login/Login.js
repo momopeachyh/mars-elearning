@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar";
-import "./style.css";
+import Navbar from "../Navbar";
+import "../style.css";
 // import { useSelector } from "react-redux";
 // import { useDispatch } from "react-redux";
 
