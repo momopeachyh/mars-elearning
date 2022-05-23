@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import "./style.css";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-// import { useSelector } from "react-redux";
 import { registerUser } from "../action/Action";
 import { useNavigate } from "react-router";
 
@@ -12,14 +11,12 @@ function Register() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-  // const userDetails = useSelector((state) => state);
   const handleSubmit = (e) => {
     e.preventDefault();
     const postData = {
       userName: username,
       password: password,
     };
-    // console.log(usernameInput + passwordInput);
     if (username == null || password == null) {
       alert("Please enter the missing value.");
     } else {
@@ -32,7 +29,6 @@ function Register() {
     <div className="Register">
       <Navbar />
       <div className="body">
-        {/* <h1>{usernameInput}</h1> */}
         <h1>Register Now!</h1>
         <form>
           {/* <div className="mb-3">

@@ -30,7 +30,7 @@ function navbar() {
               <a className="nav-link" href="/login">
                 Login
               </a>
-              <a className="nav-link" href="account">
+              <a className="nav-link" href="/account">
                 My account
               </a>
             </div>

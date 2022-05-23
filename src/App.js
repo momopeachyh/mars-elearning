@@ -5,6 +5,8 @@ import Login from "./component/Login";
 import Register from "./component/Register";
 import Registered from "./component/Registered";
 import Account from "./component/Account";
+import UpdateAccount from "./component/UpdateAccount";
+import DeleteAccount from "./component/DeleteAccount";
 import CourseList from "./component/CourseList";
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           <Route path="/registered" element={<Registered />} />
           <Route path="/login" element={<Login />} />
           <Route path="/account" element={<Account />} />
+          <Route path="/updateAccount" element={<UpdateAccount />} />
+          <Route path="/deleteAccount" element={<DeleteAccount />} />
           <Route path="/courses" element={<CourseList />} />
         </Routes>
       </Router>
