@@ -17,7 +17,7 @@ function Register() {
       userName: username,
       password: password,
     };
-    if (username == null || password == null) {
+    if (username === "" || password === "") {
       alert("Please enter the missing value.");
     } else {
       dispatch(registerUser(postData));

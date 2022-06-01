@@ -20,10 +20,18 @@ function Account() {
         <h1>My account</h1>
         <h2>Username: username</h2>
         <h2>Password: pass****</h2>
-        <button type="button" class="btn btn-primary" onClick={goToUpdateAcct}>
+        <button
+          type="button"
+          className="btn btn-primary"
+          onClick={goToUpdateAcct}
+        >
           Change username or password
         </button>
-        <button type="button" class="btn btn-danger" onClick={goToDeleteAcct}>
+        <button
+          type="button"
+          className="btn btn-danger"
+          onClick={goToDeleteAcct}
+        >
           Delete account
         </button>
       </div>
